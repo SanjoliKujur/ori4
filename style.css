@@ -1,0 +1,38 @@
+.header * {
+    border: solid;
+}
+
+.header{
+    background-color: deepskyblue;
+}
+
+.menu{
+    background-color: hotpink;  text-align: center;
+}
+
+.menu *{
+   border:solid;
+}
+
+.menu a{
+    padding-top: 1px;
+}
+
+.category{
+    background-color: orangered; text-align: left;
+}
+
+a:link{
+    color: indigo;
+}
+
+a:visited{
+    color: lime;
+}
+
+.info{
+    background-color: yellow; text-align: left; display: flex;
+    flex-wrap: wrap; justify-content: space-evenly; font-family: 'vivaldi';
+    font-size: larger;
+}
+
